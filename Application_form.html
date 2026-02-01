@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Application Form</title>
+</head>
+<body>
+
+<h1>Application form</h1>
+
+<form action="#" method="post">
+<fieldset>
+<legend>Personal Details</legend>
+<table>
+<tr>
+<td><label for="full_name">Applicant's full name</label></td>
+<td><input type="text" id="full_name" name="full_name"></td>
+<td>
+<select name="care_of">
+<option value="">--Select--</option>
+<option value="Parents">Parents</option>
+<option value="Guardian">Guardian</option>
+</select>
+</td>
+<td>
+<input type="radio" id="parents" name="relation" value="Parents">
+<label for="parents">Parents</label>
+<input type="radio" id="guardian" name="relation" value="Guardian">
+<label for="guardian">Guardian</label>
+</td>
+</tr>
+<tr>
+<td><label for="father_name">Father's Name</label></td>
+<td>
+<select name="father_prefix">
+<option value="Mr.">Mr.</option>
+</select>
+<input type="text" id="father_name" name="father_name">
+</td>
+<td><label for="mother_name">Mother's Name</label></td>
+<td>
+<select name="mother_prefix">
+<option value="Mrs.">Mrs.</option>
+</select>
+<input type="text" id="mother_name" name="mother_name">
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+<input type="radio" id="others_g" name="gender" value="Others">
+<label for="others_g">Others</label>
+</td>
+<td><label for="dob">Date of Birth</label></td>
+<td><input type="text" id="dob" name="dob" placeholder="dd-mm-yyyy"></td>
+</tr>
+<tr>
+<td><label for="marital_status">Marital Status</label></td>
+<td>
+<select id="marital_status" name="marital_status">
+<option value="">--Select--</option>
+</select>
+</td>
+<td><label for="category">Category</label></td>
+<td>
+<select id="category" name="category">
+<option value="">--Select--</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Handicapped</td>
+<td>
+<input type="radio" id="h_no" name="handicapped" value="No">
+<label for="h_no">No</label>
+<input type="radio" id="h_yes" name="handicapped" value="Yes">
+<label for="h_yes">Yes</label>
+</td>
+<td>Ex-Serviceman</td>
+<td>
+<input type="radio" id="ex_no" name="exserviceman" value="No">
+<label for="ex_no">No</label>
+<input type="radio" id="ex_yes" name="exserviceman" value="Yes">
+<label for="ex_yes">Yes</label>
+</td>
+</tr>
+<tr>
+<td>EWS</td>
+<td>
+<input type="radio" id="ews_no" name="ews" value="No">
+<label for="ews_no">No</label>
+<input type="radio" id="ews_yes" name="ews" value="Yes">
+<label for="ews_yes">Yes</label>
+</td>
+<td><label for="religion">Religion</label></td>
+<td>
+<select id="religion" name="religion">
+<option value="">--Select--</option>
+</select>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>Contact Details</legend>
+<table>
+<tr>
+<td><label for="mobile">Mobile Number</label></td>
+<td><input type="tel" id="mobile" name="mobile"></td>
+<td><label for="email">Email ID</label></td>
+<td><input type="email" id="email" name="email"></td>
+
+
+<tr>
+<td>Address Line 1</td>
+<td><input type="text" name="address1"></td>
+<td>Address Line 2</td>
+<td><input type="text" name="address2"></td>
+</tr>
+<br>
+<tr>
+<td>City</td>
+<td><input type="text" name="city"></td>
+<td>State</td>
+<td>
+<select name="state">
+<option value="">--Select--</option>
+</select>
+</td>
+</tr>
+<br>
+<tr>
+<td>Pin Code</td>
+<td colspan="3"><input type="text" name="pincode"></td>
+</tr>
+
+
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
