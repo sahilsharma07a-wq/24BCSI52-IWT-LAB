@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.saffron{
+    height: 16vw;
+    width: 100vw;
+    background-color: #FF7722;
+}
+.white{
+    height: 16vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    height: 16vw;
+    width: 100vw;
+    background-color: green;
+}
+img{
+    height: 200px;
+    width: 200px;
+    
+}
+
