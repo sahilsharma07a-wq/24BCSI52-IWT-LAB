@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Dom</title>
+    <style>
+        body {
+            color: white;
+        }
+
+        
+        .box {
+            height: 150px;
+            width: 150px;
+        }
+        .boxes{
+            display: flex;
+            gap: 10px;
+        }
+        #one{
+            background-color: rgb(65, 204, 204);
+        }
+        #two{
+            background-color: coral;
+        }
+        #three{
+            background-color: rgb(197, 7, 38);
+        }
+        #four{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <h1>Hello World!</h1>
+    <button id="btn">Click me!</button><br><br>
+    <hr>
+    <input type="text" placeholder="Enter text" id="txt">
+    <button id="btn2">display</button>
+    <p id="output">output</p>
+    <hr>
+    <input type="text" placeholder="Enter first number" id="first">
+    <input type="text" placeholder="Enter second number" id="second">
+    <button id="btn3">Sum</button>
+    <p id="res">Result</p>
+    <hr>
+    <select name="color" id="color">
+        <option value="none">none</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+    </select>
+    <hr>
+    <ul>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>pineapple</li>
+    </ul>
+    <hr>
+    <div class="boxes">
+        <div id="one" class="box"></div>
+        <div id="two" class="box"></div>
+        <div id="three" class="box"></div>
+        <div id="four" class="box"></div>
+    </div>
+</body>
+<script src="Dom.js"></script>
+
+</html>
